@@ -1,0 +1,93 @@
+.txt_cntr{text-align: center;}
+.centered{
+	margin-left: auto;
+	margin-right: auto;
+}
+.middle{
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+h1
+{
+	font-size: 36pt;
+	font-family: Lucida Handwriting;
+	color: #59f;
+}
+h3{
+	margin-top: 3%;
+	font-family: Georgia;
+	font-size: 16pt;
+}
+
+#main{
+	margin-top: 1%;
+	display: flex;
+	flex-direction: column;
+}
+div div{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	margin-top: 1%;
+	color: #003;
+	font-size: 14pt;
+}
+
+h4{
+	width: 39%;
+	padding: 5%;
+	border: 1px dashed #777;
+}h4:hover{
+	border: 1px dashed #333;
+	background-color: #ddf;
+	transform: scale(0.99);
+	transition: 0.4s;
+}
+
+hr{
+	border: 0;
+	background-color: #070;
+	height: 10px;
+	margin-left: 0;
+	margin-top: 2.5%;
+}
+
+.card{
+	box-shadow: 7px 7px 5px #aaf;
+	border-radius: 10px;
+	background-color: #039;
+	color: white;
+	font-size: 72pt;
+	width: 16%;
+	height: 175px;
+	line-height: 175px;
+	transition: 0.3s;
+}.card:hover{
+	box-shadow: 10px 12px 10px #77c;
+	transition: 0.5s;
+}
+
+.btn{
+	border: 0;
+	border-radius: 7px;
+	padding: 3%;
+	width: 20%;
+	font-size: 16pt;
+}
+.btn_green{
+	background-color: #5f5;
+	color: #070;
+}.btn_green:hover{
+	background-color: #3f3;
+	color: #030;
+	box-shadow: 0 0 7px #0f0;
+}
+.btn_red{
+	background-color: #f55;
+	color: #700;
+}.btn_red:hover{
+	background-color: #f33;
+	color: #300;
+	box-shadow: 0 0 7px #f00;
+}
