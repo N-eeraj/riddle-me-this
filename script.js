@@ -25,8 +25,6 @@ for(var i in questions)
 	key += QNo+'. '+questions[i]+'<br>&nbsp;&nbsp;&nbsp;&nbsp;'+answers[i]+'<br><br>';
 }
 
-//alert('Welcome to Quiz');
-
 function loadQuestion()
 {
 	document.getElementById('question').innerHTML = qNo+'. '+questions[qNo-1];
@@ -41,14 +39,15 @@ function fnRetry()
 {
 	document.getElementsByTagName('h1')[0].innerHTML='Quiz';
 	document.getElementById('main').innerHTML=`
-			<div  class=centered>
-				<h4 class=middle id=op1 onClick=checkAnswer(option1s)>Option1</h4>
-				<h4 class=middle id=op2 onClick=checkAnswer(option2s)>Option2</h4>
+			<div>
+				<h4 class=middle id=op1 onClick=checkAnswer(option1s)></h4>
+				<h4 class=middle id=op2 onClick=checkAnswer(option2s)></h4>
 			</div>
-			<div class=centered>
-				<h4 class=middle id=op3 onClick=checkAnswer(option3s)>Option3</h4>
-				<h4 class=middle id=op4 onClick=checkAnswer(option4s)>Option4</h4>
-			</div>`;
+			<div>
+				<h4 class=middle id=op3 onClick=checkAnswer(option3s)></h4>
+				<h4 class=middle id=op4 onClick=checkAnswer(option4s)></h4>
+			</div>
+			<hr>`;
 	qNo=1;
 	score=0;
 	loadQuestion()
@@ -77,12 +76,15 @@ function checkAnswer(options)
 		document.getElementsByTagName('div')[1].setAttribute('class','card txt_cntr centered');
 		document.getElementsByTagName('div')[2].innerHTML='<button>Retry</button><button>Answers</button>';
 		document.getElementsByTagName('div')[2].style.marginTop= '5%';
-		document.getElementsByTagName('div')[2].style.width= '60%';
-		document.getElementsByTagName('button')[0].setAttribute('class','btn btn_green');
-		document.getElementsByTagName('button')[1].setAttribute('class','btn btn_red');
+		document.getElementsByTagName('div')[2].style.width= '100%';
+		document.getElementsByTagName('div')[2].style.flexDirection= 'row';
+		document.getElementsByTagName('div')[2].style.justifyContent= 'space-evenly';
+		document.getElementsByTagName('button')[0].setAttribute('class','btn btn_light');
+		document.getElementsByTagName('button')[1].setAttribute('class','btn btn_dark');
 		document.getElementsByTagName('button')[0].setAttribute('onClick', 'fnRetry()');
 		document.getElementsByTagName('button')[1].setAttribute('onClick', 'fnAnswers()');
 		document.getElementsByTagName('hr')[0].style.display = 'none';
 	}
 }
+
 loadQuestion()
