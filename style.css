@@ -1,0 +1,166 @@
+.centered{margin: 0 auto;}
+
+@font-face{
+	font-family: Lucida Handwriting;
+	src: url('Lucida Handwriting Italic.ttf');
+	font-style: normal;
+	
+}
+
+h1
+{
+	margin-inline: 0;
+	margin-block: 0;
+	margin: 2% 0 1% 0;
+	font-size: 36pt;
+	font-family: Lucida Handwriting;
+	color: #59f;
+	text-align: center;
+}
+h3{
+	margin: 5% 0;
+	font-family: Georgia;
+	font-size: 16pt;
+}
+
+#main{
+	display: flex;
+	flex-direction: column;
+}
+
+div div{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #003;
+	font-size: 14pt;
+}
+
+h4{
+	text-align: center;
+	padding: 5%;
+	width: 85%;
+	border: 1px dashed #777;
+	margin-inline: 0;
+	margin-block: 0;
+	margin-top: 3%;
+}
+
+hr{
+	border: 0;
+	background-color: #09f;
+	height: 10px;
+	margin-left: 0;
+	margin-top: 7.5%;
+}
+
+.card{
+	box-shadow: 7px 7px 5px #aaf;
+	border-radius: 10px;
+	background-color: #039;
+	color: white;
+	font-size: 72pt;
+	transition: 0.3s;
+	width: 30%;
+	height: 100px;
+	line-height: 100px;
+	margin: 0 auto;
+}
+
+.btn{
+	width: 15%;
+	border: 0;
+	border-radius: 7px;
+	padding: 3%;
+	font-size: 16pt;
+}
+.btn_light{
+	background-color: #7cf;
+	color: #037;
+}
+.btn_dark{
+	background-color: #09f;
+	color: white;
+}
+
+@media(min-width:500px)
+{
+
+	#main{
+		margin-top: 1%;
+		height: auto;
+	}
+	div div{
+		flex-direction: row;
+		justify-content: space-around;
+		width: 100%;
+		color: #003;
+		font-size: 14pt;
+	}
+	h1{
+		font-size: 36pt;
+		margin-top: 2%;
+	}
+	h3{
+		font-size: 14pt;
+		margin: 2% 0 1% 0;
+	}
+	h4{
+		margin-top: 1%;
+		margin-bottom: 0;
+		width: 39%;
+		padding: 5%;
+		border: 1px dashed #777;
+	}
+	
+	.card{
+		width: 25%;
+		height: 125px;
+		line-height: 125px;
+	}
+	.btn{width: 25%;}
+	
+	hr{
+		margin-top: 2.5%;
+	}
+}
+
+@media(min-width: 800px)
+{
+	h1{
+		font-size: 48pt;
+		margin-top: 2%;
+	}
+	h3{
+		font-size: 18pt;
+		margin: 2% 0 1% 0;
+	}
+	h4{
+		font-size: 16pt;
+	}h4:hover{
+		border: 1px dashed #333;
+		background-color: #ddf;
+		transform: scale(0.97);
+		transition: 0.5s;
+	}
+	
+	.card{
+		width: 16%;
+		height: 175px;
+		line-height: 175px;
+	}
+	.card:hover{
+		box-shadow: 10px 12px 10px #77c;
+		transition: 0.5s;
+	}
+	
+	.btn{
+		font-size: 16pt;
+		width: 16%;
+	}.btn:hover{
+		transform: scale(0.9);
+		transition: 0.3s;
+	}
+	
+	hr{height: 20px;}
+}
