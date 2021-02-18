@@ -34,21 +34,19 @@ input{
 	border: 0;
 	padding: 0;
 	text-align: center-left;
-	background-color: rgba(255, 255, 255, 0.6);
+	background-color: rgba(255, 255, 255, 0.7);
 	padding: 3% 2%;
 	border-radius: 5px;
 	outline: none;
-	color: #003;
-}
-input:focus{
-	background-color: rgba(255, 255, 255, 0.9);
+	color: #007;
+}input:focus{
+	background-color: white;
 	transition: 0.3s ease;
-}
-input:focus::placeholder{color: transparent;}
-input::placeholder{
-	color: #779;
-	transition: 0.3s ease;
-}
+}input::placeholder{
+	color: #557;
+	transition: 0.5s ease;
+}input:focus::placeholder{color: transparent;}
+
 #start{
 	background-color: white;
 	color: #09f;
@@ -94,15 +92,15 @@ hr{
 	height: 10px;
 	margin-left: 0;
 	margin-top: 7.5%;
+	transition: 0.7s;
 }
 
 .card{
-	box-shadow: 7px 7px 5px #aaf;
-	border-radius: 10px;
+	box-shadow: 3px 3px 7px rgba(0, 125, 255, 0.5);
+	border-radius: 5px;
 	background-image: linear-gradient(135deg, rgba(100, 0, 225, 0.7), rgba(0, 125, 225, 0.6));
 	color: white;
-	font-size: 72pt;
-	transition: 0.3s;
+	font-size: 60pt;
 	width: 30%;
 	height: 100px;
 	line-height: 100px;
@@ -119,12 +117,12 @@ hr{
 	outline: none;
 }
 .btn_light{
-	background-color: #7cf;
-	color: #037;
+	background-color: rgba(100, 0, 225, 0.6);
+	color: rgb(55, 0, 125);
 }
 .btn_dark{
-	background-color: #09f;
-	color: white;
+	background-color: rgba(0, 125, 225, 0.6);
+	color: rgb(0, 55, 125);
 }
 
 @media(min-width:500px)
@@ -166,6 +164,7 @@ hr{
 		width: 25%;
 		height: 125px;
 		line-height: 125px;
+		font-size: 72pt;
 	}
 	.btn{width: 25%;}
 	
@@ -205,9 +204,10 @@ hr{
 	}
 	h4{
 		font-size: 16pt;
+		transition: 0.3s;
 	}h4:hover{
-		border: 0;
-		background-image: linear-gradient(135deg, rgba(125, 0, 255, 0.3), rgba(0, 175, 255, 0.3));
+		border: 1px dashed rgb(125, 0, 255);
+		background-color: rgba(55, 100, 255, 0.25);
 		transform: scale(0.99);
 		transition: 0.5s;
 	}
@@ -216,19 +216,22 @@ hr{
 		width: 16%;
 		height: 175px;
 		line-height: 175px;
+		transition: 0.5s;
 	}
 	.card:hover{
-		box-shadow: 10px 12px 10px #77c;
-		transition: 0.5s;
+		box-shadow: -3px -3px 7px rgba(125, 0, 255, 0.5);
+		transition: 0.75s;
 	}
 	
 	.btn{
-		font-size: 16pt;
+		font-size: 18pt;
 		margin-top: 0%;
 		width: 16%;
+		padding: 2.5% 0;
 	}.btn:hover{
-		transform: scale(0.9);
-		transition: 0.3s;
+		transform: scale(0.98);
+		transition: 0.5s;
+		color: white;
 	}
 	
 	hr{height: 20px;}
