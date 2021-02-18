@@ -101,7 +101,7 @@ function checkAnswer(options)
 		document.getElementsByTagName('div')[1].innerHTML=score;
 		document.getElementsByTagName('div')[1].setAttribute('class','card txt_cntr centered');
 		document.getElementsByTagName('div')[2].innerHTML='<button>Retry</button><button>Answers</button>';
-		document.getElementsByTagName('div')[2].style.marginTop= '5%';
+		document.getElementsByTagName('div')[2].style.margin='5% 0';
 		document.getElementsByTagName('div')[2].style.width= '100%';
 		document.getElementsByTagName('div')[2].style.flexDirection= 'row';
 		document.getElementsByTagName('div')[2].style.justifyContent= 'space-evenly';
