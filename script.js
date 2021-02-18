@@ -19,7 +19,7 @@ const answers = ['Elon Musk', 'Mark Zuckerberg', 'Argentina', 'Rohit Sharma', 'G
 				'Robert Downey Jr.', 'Tamil', 'Dioptre', 'Charles Babbage', 'Ada Lovelace']
 
 var key='';
-let plrName='No Name';
+var plrName;
 
 for(var i in questions)
 {
@@ -30,21 +30,26 @@ for(var i in questions)
 function startQuiz()
 {
 	plrName = document.getElementsByTagName('input')[0].value;
-	document.body.innerHTML = `
-	<h1 class=txt_cntr>Quiz</h1>
-		<h3 id=question></h3>
-		<div id=main class=txt_cntr>
-			<div>
-				<h4 class=middle id=op1 onClick=checkAnswer(option1s)></h4>
-				<h4 class=middle id=op2 onClick=checkAnswer(option2s)></h4>
-			</div>
-			<div>
-				<h4 class=middle id=op3 onClick=checkAnswer(option3s)></h4>
-				<h4 class=middle id=op4 onClick=checkAnswer(option4s)></h4>
-			</div>
-			<hr>
-		</div>`;
-	loadQuestion()
+	if(plrName!='')
+	{
+		document.body.innerHTML = `
+			<h1 class=txt_cntr>Quiz</h1>
+			<h3 id=question></h3>
+			<div id=main class=txt_cntr>
+				<div>
+					<h4 class=middle id=op1 onClick=checkAnswer(option1s)></h4>
+					<h4 class=middle id=op2 onClick=checkAnswer(option2s)></h4>
+				</div>
+				<div>
+					<h4 class=middle id=op3 onClick=checkAnswer(option3s)></h4>
+					<h4 class=middle id=op4 onClick=checkAnswer(option4s)></h4>
+				</div>
+				<hr>
+			</div>`;
+		loadQuestion()
+	}
+	else{alert('Please enter your Name')}
+	
 }
 function loadQuestion()
 {
@@ -105,5 +110,9 @@ function checkAnswer(options)
 		document.getElementsByTagName('button')[0].setAttribute('onClick', 'fnRetry()');
 		document.getElementsByTagName('button')[1].setAttribute('onClick', 'fnAnswers()');
 		document.getElementsByTagName('hr')[0].style.display = 'none';
+		
+		console.log(plrName, score);
 	}
 }
+
+document.getElementsByTagName('input')[0].addEventListener('keyup', (e) =>{if(e.keyCode === 13){startQuiz()}})
