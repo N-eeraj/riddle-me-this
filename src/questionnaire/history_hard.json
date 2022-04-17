@@ -1,0 +1,102 @@
+[
+	{
+		"question": "Who was the Last Great Viking Leader?",
+		"options": [
+			"Ragnar Lothbrok",
+			"Harald Hardrada",
+			"Erik the Red",
+			"Leif Eriksson"
+		],
+		"answer": 1
+	},
+	{
+		"question": "What is the oldest known monumental sculpture in Egypt?",
+		"options": [
+			"Pyramids of Giza",
+			"Stonehenge",
+			"The Sphinx",
+			"Colosseum"
+		],
+		"answer": 2
+	},
+	{
+		"question": "When was the Iron Age period?",
+		"options": [
+			"Between 3000 BC and 2000 BC",
+			"Between 1200 BC and 600 BC",
+			"Between 300 BC and 1000 AD",
+			"Between 1400 AD and 1600 AD"
+		],
+		"answer": 1
+	},
+	{
+		"question": "What was the era of dinosaurs called?",
+		"options": [
+			"Mesozoic",
+			"Cenozoic",
+			"Paleozoic",
+			"Precambrian"
+		],
+		"answer": 0
+	},
+	{
+		"question": "When did salem witch trials begin?",
+		"options": [
+			"May 1491",
+			"January 1513",
+			"February 1692",
+			"March 1759"
+		],
+		"answer": 2
+	},
+	{
+		"question": "When was the Battle of Waterloo fought?",
+		"options": [
+            "21 September 1785",
+			"18 June 1815",
+			"30 January 1825",
+			"5 July 1875"
+		],
+		"answer": 1
+	},
+	{
+		"question": "Which was the shortest war in the history?",
+		"options": [
+			"Reconquista",
+			"Anglo-Zanzibar",
+			"Anglo-French Wars",
+			"Battle of the Blackwater"
+		],
+		"answer": 1
+	},
+	{
+		"question": "What do you call people who study fossils?",
+		"options": [
+			"Limnologist",
+			"Seismologist",
+			"Embalmer",
+			"Paleontologist"
+		],
+		"answer": 3
+	},
+	{
+		"question": "When was the Leaning Tower of Pisa finished?",
+		"options": [
+			"1372",
+			"1419",
+			"1453",
+			"1521"
+		],
+		"answer": 0
+	},
+	{
+		"question": "When was Adolf Hitler born?",
+		"options": [
+			"20 April 1889",
+			"27 April 1889",
+			"25 December 1889",
+			"31 December 1889"
+		],
+		"answer": 0
+	}
+]

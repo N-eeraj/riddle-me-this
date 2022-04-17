@@ -1,0 +1,102 @@
+[
+	{
+		"question": "What is a shark's skeleton made of?",
+		"options": [
+			"Bone",
+			"Cartilage ",
+			"Titanium",
+			"Keratin"
+		],
+		"answer": 1
+	},
+	{
+		"question": "What does a stingray use for defence",
+		"options": [
+			"Toxic Substances",
+			"Venomous Spine",
+			"Poisonous Tail",
+			"Sharp Tooth"
+		],
+		"answer": 1
+	},
+	{
+		"question": "What are thermohaline currents?",
+		"options": [
+			"Cold water currents from the arctic",
+			"Warm water currents from Africa",
+			"Currents that move up and down in the ocean",
+			"Currents from the equator"
+		],
+		"answer": 2
+	},
+	{
+		"question": "What are the main categories of sea life?",
+		"options": [
+			"Swimmers and non-swimmers",
+			"Fish, mammals and microscopic creatures",
+			"Fishes and plants",
+			"Swimmers, floaters and creatures on the sea floor"
+		],
+		"answer": 3
+	},
+	{
+		"question": "What type of water is more dense?",
+		"options": [
+			"Equator, hot water",
+			"Polar, cold water",
+			"Water close to the shore",
+			"Deep sea water"
+		],
+		"answer": 1
+	},
+	{
+		"question": "What sea life is at the very bottom of the food chain?",
+		"options": [
+			"Microscopic fish",
+			"Corals",
+			"Algae",
+			"phytoplankton"
+		],
+		"answer": 3
+	},
+	{
+		"question": "Which is the fish that can inflate its body to up to three times its normal size?",
+		"options": [
+			"Pufferfish",
+			"Octopus",
+			"Sunburst anthias",
+			"Seahorse"
+		],
+		"answer": 0
+	},
+	{
+		"question": "Which saltwater fish has a snout can grow up to one-third its entire body length?",
+		"options": [
+			"Swordfish",
+			"Bullethead rockskipper",
+			"Leaping bonito",
+			"Toadfish"
+		],
+		"answer": 0
+	},
+	{
+		"question": "Which is the deepest oceanic trench?",
+		"options": [
+			"Tonga Trench",
+			"Mariana Trench",
+			"Kermadec Trench",
+			"Japan Trench"
+		],
+		"answer": 1
+	},
+	{
+		"question": "How much heart(s) does an octopus have?",
+		"options": [
+			"One",
+			"Two",
+			"Three",
+			"Four"
+		],
+		"answer": 2
+	}
+]

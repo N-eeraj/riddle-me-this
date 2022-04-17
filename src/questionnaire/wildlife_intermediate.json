@@ -1,0 +1,102 @@
+[
+	{
+		"question": "What is the loudest insect in the world?",
+		"options": [
+			"Bee",
+			"Cicada",
+			"Wasp",
+			"Mantis"
+		],
+		"answer": 1
+	},
+	{
+		"question": "Which bird lays the smallest egg?",
+		"options": [
+			"Hummingbird",
+			"Finches",
+			"Goldcrest ",
+			"Raven"
+		],
+		"answer": 0
+	},
+	{
+		"question": "Which ant has the most painful sting?",
+		"options": [
+			"Black Carpenter Ant",
+			"Meat Ant",
+			"Electric Ant",
+			"Bullet Ant"
+		],
+		"answer": 3
+	},
+	{
+		"question": "What is the larvae stage of a frog called?",
+		"options": [
+			"Toad",
+			"Metamorphosis",
+			"Froglet",
+			"Tadpole"
+		],
+		"answer": 3
+	},
+	{
+		"question": "What feature is visibly different between alligators and crocodiles?",
+		"options": [
+			"Tail",
+			"Snout",
+			"Eyes",
+			"Tongue"
+		],
+		"answer": 1
+	},
+	{
+		"question": "How many compartments are in a cow's stomach?",
+		"options": [
+			"One",
+			"Two",
+			"Three",
+			"Four"
+		],
+		"answer": 3
+	},
+	{
+		"question": "What color is a polar bear's skin?",
+		"options": [
+			"White",
+			"Black",
+			"Yellow",
+			"Brown"
+		],
+		"answer": 1
+	},
+	{
+		"question": "What bird buries it's head in the ground?",
+		"options": [
+			"Turkey",
+			"Hen",
+			"Ostrich",
+			"Penguin"
+		],
+		"answer": 2
+	},
+	{
+		"question": "What object does a male penguin often gift to a female penguin to win her over?",
+		"options": [
+			"A Pebble",
+			"Block of Ice",
+			"Fish",
+			"None of the above"
+		],
+		"answer": 0
+	},
+	{
+		"question": "What are a group of crows called?",
+		"options": [
+			"Black",
+			"Pack",
+			"Murder",
+			"School"
+		],
+		"answer": 2
+	}
+]

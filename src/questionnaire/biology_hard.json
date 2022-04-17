@@ -1,0 +1,102 @@
+[
+	{
+		"question": "What treatments are available for kidney failure?",
+		"options": [
+			"Dialysis",
+			"Kidney Transplant",
+			"Both",
+			"Neither"
+		],
+		"answer": 2
+	},
+	{
+		"question": "Where is bile stored?",
+		"options": [
+			"Liver",
+			"Stomach",
+			"Gallbladder",
+			"Appendix"
+		],
+		"answer": 2
+	},
+	{
+		"question": "What is a collection of blood outside of blood vessels called?",
+		"options": [
+			"Hemorrhage",
+			"Hematoma",
+			"Dysthymia",
+			"Cephalgia"
+		],
+		"answer": 1
+	},
+	{
+		"question": "Which hormone results in feeling happy and thus also known as \"Happy Hormone\"?",
+		"options": [
+			"Dopamine",
+			"epinephrine",
+			"Luteinising",
+			"Adrenocorticotrophic Hormone"
+		],
+		"answer": 0
+	},
+	{
+		"question": "What does the medical term \"Myocardial Infarction\" refer to?",
+		"options": [
+			"Liver Failure",
+			"Brain Tumor",
+			"Collapsed Lung",
+			"Heart Attack"
+		],
+		"answer": 3
+	},
+	{
+		"question": "When should you start Chest Compressions?",
+		"options": [
+			"When the patient is not feeling well",
+			"When the patient is feeling dizzy & nauseous",
+			"When the patient has no pulse or breathing",
+			"When the patient has lost a lot of blood"
+		],
+		"answer": 2
+	},
+	{
+		"question": "Which of these is not a good bacteria?",
+		"options": [
+			"Lactobacillus",
+			"Bifidobacteria",
+			"Staphylococcus",
+			"Saccharomyces boulardii"
+		],
+		"answer": 2
+	},
+	{
+		"question": "Which part of the body never grows from birth to death?",
+		"options": [
+			"Cornea",
+			"Intestines",
+			"Appendix",
+			"The Midbrain"
+		],
+		"answer": 0
+	},
+	{
+		"question": "What are the neurons connected through?",
+		"options": [
+			"Axon",
+			"Synapses",
+			"Dendrites",
+			"Albumin"
+		],
+		"answer": 1
+	},
+	{
+		"question": "Which is the longest bone in the human body?",
+		"options": [
+			"Sternum",
+			"Vertebrae",
+			"Femur",
+			"Stapes"
+		],
+		"answer": 2
+	}
+]

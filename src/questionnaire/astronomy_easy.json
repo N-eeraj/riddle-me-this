@@ -1,0 +1,102 @@
+[
+	{
+		"question": "How many planets are there in the solar system?",
+		"options": [
+			"Seven",
+			"Eight",
+			"Nine",
+			"Ten"
+		],
+		"answer": 1
+	},
+	{
+		"question": "Which planet is known as the \"Red Planet\"?",
+		"options": [
+			"Venus",
+			"Earth",
+			"Mars",
+			"Uranus"
+		],
+		"answer": 2
+	},
+	{
+		"question": "Coldest planet in the solar system",
+		"options": [
+			"Earth",
+			"Venus",
+			"Uranus",
+			"Jupiter"
+		],
+		"answer": 2
+	},
+	{
+		"question": "Which is the largest planet in the solar system?",
+		"options": [
+			"Jupiter",
+			"Saturn",
+			"Neptune",
+			"Pluto"
+		],
+		"answer": 0
+	},
+	{
+		"question": "Which planet is called the \"Ringed Planet\"?",
+		"options": [
+			"Earth",
+			"Saturn",
+			"Neptune",
+			"Mars"
+		],
+		"answer": 1
+	},
+	{
+		"question": "Who was the first person to walk on the moon?",
+		"options": [
+			"Neil Armstrong",
+			"Gene Cernan",
+			"Buzz Aldrin",
+			"Kalpana Chawla"
+		],
+		"answer": 0
+	},
+	{
+		"question": "Which planet is called Earth's twin?",
+		"options": [
+			"Mars",
+			"Neptune",
+			"Pluto",
+			"Venus"
+		],
+		"answer": 3
+	},
+	{
+		"question": "Sun is a _____",
+		"options": [
+			"Planet",
+			"Dwarf Planet",
+			"Moon",
+			"Star"
+		],
+		"answer": 3
+	},
+	{
+		"question": "What is the force by which a planet or other body draws objects toward its center called?",
+		"options": [
+			"Newton Force",
+			"Gravity",
+			"Mass",
+			"Black Hole"
+		],
+		"answer": 1
+	},
+	{
+		"question": "Which instrument is used to observe celestial objects?",
+		"options": [
+			"Microscope",
+			"Telescope",
+			"Magnifying Glass",
+			"Convex Lenses"
+		],
+		"answer": 1
+	}
+]

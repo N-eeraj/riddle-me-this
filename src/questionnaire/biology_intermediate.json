@@ -1,0 +1,102 @@
+[
+	{
+		"question": "Which organ purify our blood?",
+		"options": [
+			"Kidney",
+			"Heart",
+			"Liver",
+			"Lung"
+		],
+		"answer": 0
+	},
+	{
+		"question": "Which organ is capable of regeneration?",
+		"options": [
+			"Brain",
+			"Heart",
+			"Kidney",
+			"Liver"
+		],
+		"answer": 3
+	},
+	{
+		"question": "What are the 3 types of blood vessels?",
+		"options": [
+			"Veins, nerves & skeletal system",
+			"Arteries, veins & capillaries",
+			"Arteries, lymph vessels & oesophagus",
+			"Viens, nerves & oesophagus"
+		],
+		"answer": 1
+	},
+	{
+		"question": "Heart is divided into right and left ______ and ________ .",
+		"options": [
+			"Atrium, Ventricle",
+			"Epicardium, Endocardium",
+			"Myocardium, Cohlea",
+			"Bronchus, Bronchioles"
+		],
+		"answer": 0
+	},
+	{
+		"question": "What type of blood cells ward off infections?",
+		"options": [
+			"Platelets",
+			"Plasma",
+			"White Blood Cells",
+			"Red Blood Cells"
+		],
+		"answer": 2
+	},
+	{
+		"question": "What is the study of nerves called?",
+		"options": [
+			"Gastroenterology",
+			"Pulmonology",
+			"Angiology",
+			"Neurology"
+		],
+		"answer": 3
+	},
+	{
+		"question": "What is the biggest part of the brain called?",
+		"options": [
+			"Cerebrum",
+			"Cerebellum",
+			"Amygdala",
+			"Brainstem"
+		],
+		"answer": 0
+	},
+	{
+		"question": "Which is the heaviest organ of the human body?",
+		"options": [
+			"Liver",
+			"Brain",
+			"Skin",
+			"Heart"
+		],
+		"answer": 2
+	},
+	{
+		"question": "Which is the strongest part of the body?",
+		"options": [
+			"Bones",
+			"Teeth",
+			"Liver",
+			"Heart"
+		],
+		"answer": 1
+	},
+	{
+		"question": "What is human hair made up of?",
+		"options": [
+			"Keratin",
+			"Enamel",
+			"Collagen",
+			"Protein"
+		],
+		"answer": 0
+	}
+]

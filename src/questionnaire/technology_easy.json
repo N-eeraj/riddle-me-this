@@ -1,0 +1,102 @@
+[
+	{
+		"question": "What is the language of computers?",
+		"options": [
+			"Machine language",
+			"Assembly language",
+			"High level language",
+			"Scripting language"
+		],
+		"answer": 0
+	},
+	{
+		"question": "Who is considered as the father of computers?",
+		"options": [
+			"Bill Gates",
+			"Charles Babbage",
+			"Mark Zuckerberg",
+			"Ada Lovelace"
+		],
+		"answer": 1
+	},
+	{
+		"question": "What does CPU stands for?",
+		"options": [
+			"Central Processing Unit",
+			"Control Processing Unit",
+			"Central Programming Unit",
+			"Contorl Programming Unit"
+		],
+		"answer": 0
+	},
+	{
+		"question": "What is the circular path that always required to get electricity to flow and do something useful called?",
+		"options": [
+			"Current",
+			"Charge",
+			"Circuit",
+			"Voltage"
+		],
+		"answer": 2
+	},
+	{
+		"question": "What does AI stand for in computer science?",
+		"options": [
+			"Automation Industry",
+			"Artificial Intelligence",
+			"Automatic Integration",
+			"Assistant Instance"
+		],
+		"answer": 1
+	},
+	{
+		"question": "What is the network that connects computers all over the world called?",
+		"options": [
+			"LAN",
+			"Internet",
+			"Wifi",
+			"Server Connectivity"
+		],
+		"answer": 1
+	},
+	{
+		"question": "What is a person who steals data over the internet called?",
+		"options": [
+			"Hacker",
+			"Programmer",
+			"Developer",
+			"Coder"
+		],
+		"answer": 0
+	},
+	{
+		"question": "Which of these is not an operating system?",
+		"options": [
+			"Microsoft Windows",
+			"iOS",
+			"Android",
+			"Facebook"
+		],
+		"answer": 3
+	},
+	{
+		"question": "Which company produces the iPhones?",
+		"options": [
+			"Apple",
+			"Samsung",
+			"Acer",
+			"Microsoft"
+		],
+		"answer": 0
+	},
+	{
+		"question": "Who Invented the lightbulb?",
+		"options": [
+			"Charles Edison",
+			"Nikola Tesla",
+			"Albert Einstein",
+			"Thomas Edison"
+		],
+		"answer": 3
+	}
+]

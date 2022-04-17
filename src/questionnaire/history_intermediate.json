@@ -1,0 +1,102 @@
+[
+	{
+		"question": "Who was the ruler of France during the revolution?",
+		"options": [
+			"Louis XVI",
+			"Henry IV",
+			"Napoleon Bonaparte",
+			"Henry VIII"
+		],
+		"answer": 0
+	},
+	{
+		"question": "Who was the first ruler of mongol empire?",
+		"options": [
+			"Genghis Khan",
+			"Kublai Khan",
+			"Togon-temür",
+			"Romulus Augustulus"
+		],
+		"answer": 0
+	},
+	{
+		"question": "Which year was Mahatma Gandhi born?",
+		"options": [
+			"1849",
+			"1851",
+			"1869",
+			"1894"
+		],
+		"answer": 2
+	},
+	{
+		"question": "When was the first olympic games held?",
+		"options": [
+			"28 June 1864",
+			"6 April 1896",
+			"16 June 1916",
+			"7 May 1946"
+		],
+		"answer": 1
+	},
+	{
+		"question": "Who built the nuclear bomb?",
+		"options": [
+			"J. Robert Oppenheimer",
+			"Archimedes",
+			"Aristotle",
+			"David W. Goodall"
+		],
+		"answer": 0
+	},
+	{
+		"question": "Who Invented Exams?",
+		"options": [
+			"Kenjiro Takayanagi",
+			"Philo Farnsworth",
+			"Johann Carolus",
+			"Henry A. Fischel"
+		],
+		"answer": 3
+	},
+	{
+		"question": "How long is the Great Wall of China?",
+		"options": [
+			"14,268 km",
+			"19,541 km",
+			"21,196 km",
+			"27,457 km"
+		],
+		"answer": 2
+	},
+	{
+		"question": "Who was called the most successful pirate in history?",
+		"options": [
+			"Jack Sparrow",
+			"Edward Teach",
+			"Jacques de Sores",
+			"Zheng Yi Sao"
+		],
+		"answer": 0
+	},
+	{
+		"question": "What was Gandhi's profession before joining the Indian freedom movement?",
+		"options": [
+			"Politician",
+			"Lawyer",
+			"Artist",
+			"Writer"
+		],
+		"answer": 1
+	},
+	{
+		"question": "Where was the first guillotine made?",
+		"options": [
+			"England",
+			"Russia",
+			"France",
+			"Brazil"
+		],
+		"answer": 2
+	}
+]

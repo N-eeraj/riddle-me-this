@@ -1,0 +1,102 @@
+[
+	{
+		"question": "What is a collection of stars that form patterns called?",
+		"options": [
+			"Galaxy",
+			"Universe",
+			"Constellation",
+			"Polar Stars"
+		],
+		"answer": 2
+	},
+	{
+		"question": "What is the Sun made of?",
+		"options": [
+			"Fire & Lava",
+			"Nitrogen & Plasma",
+			"Oxygen & Potassium",
+			"Hydrogen & Helium"
+		],
+		"answer": 3
+	},
+	{
+		"question": "What is the core of a planet?",
+		"options": [
+			"The atmosphere of the planet",
+			"The outermost layer of the planet",
+			"A region between the inner & outer most layers",
+			"The innermost layer of the planet"
+		],
+		"answer": 3
+	},
+	{
+		"question": "How many stars are there in constellation Orion's belt",
+		"options": [
+			"Two",
+			"Three",
+			"Four",
+			"Five"
+		],
+		"answer": 1
+	},
+	{
+		"question": "What happens when massive stars die?",
+		"options": [
+			"A new star is formed",
+			"A planet is formed",
+			"A moon is formed",
+			"A black hole is formed"
+		],
+		"answer": 3
+	},
+	{
+		"question": "Where is the asteroid belt located?",
+		"options": [
+			"Between Mars & Jupiter",
+			"Between Mars & Saturn",
+			"Between Earth & Jupiter",
+			"Between Venus & Saturn"
+		],
+		"answer": 0
+	},
+	{
+		"question": "What is the event when one heavenly body such as a moon or planet moves into the shadow of another heavenly body called?",
+		"options": [
+			"Quantum Entanglement",
+			"Eclipse",
+			"Solar Wind",
+			"Spaghettification"
+		],
+		"answer": 1
+	},
+	{
+		"question": "When was pluto declared as a dwarf planet",
+		"options": [
+			"1992",
+			"2000",
+			"2006",
+			"2012"
+		],
+		"answer": 2
+	},
+	{
+		"question": "What is the name of our galaxy?",
+		"options": [
+			"The Solar System",
+			"The Milky Way",
+			"The Andromeda Galaxy",
+			"The Alcyoneus"
+		],
+		"answer": 1
+	},
+	{
+		"question": "What is the Saturn's largest moon named?",
+		"options": [
+			"Luna",
+			"Selene",
+			"Callisto",
+			"Titan"
+		],
+		"answer": 3
+	}
+]

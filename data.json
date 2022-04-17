@@ -1,0 +1,80 @@
+{
+	"categories": [
+		{
+			"category": "wildlife",
+			"image": "src/images/categories/wildlife.jpg",
+			"quizzes": [
+				"src/questionnaire/wildlife_easy.json",
+				"src/questionnaire/wildlife_intermediate.json",
+				"src/questionnaire/wildlife_hard.json"
+			]
+		},
+		{
+			"category": "Marine",
+			"image": "src/images/categories/marine.jpg",
+			"quizzes": [
+				"src/questionnaire/src/questionnaire/marine_easy.json",
+				"src/questionnaire/src/questionnaire/marine_intermediate.json",
+				"src/questionnaire/src/questionnaire/marine_hard.json"
+			]
+		},
+		{
+			"category": "Astronomy",
+			"image": "src/images/categories/astronomy.jpg",
+			"quizzes": [
+				"src/questionnaire/astronomy_easy.json",
+				"src/questionnaire/astronomy_intermediate.json",
+				"src/questionnaire/astronomy_hard.json"
+			]
+		},
+		{
+			"category": "Biology",
+			"image": "src/images/categories/biology.jpg",
+			"quizzes": [
+				"src/questionnaire/biology_easy.json",
+				"src/questionnaire/biology_intermediate.json",
+				"src/questionnaire/biology_hard.json"
+			]
+		},
+		{
+			"category": "Technology",
+			"image": "src/images/categories/technology.jpg",
+			"quizzes": [
+				"src/questionnaire/technology_easy.json",
+				"src/questionnaire/technology_intermediate.json",
+				"src/questionnaire/technology_hard.json"
+			]
+		},
+		{
+			"category": "History",
+			"image": "src/images/categories/history.jpg",
+			"quizzes": [
+				"src/questionnaire/history_easy.json",
+				"src/questionnaire/history_intermediate.json",
+				"src/questionnaire/history_hard.json"
+			]
+		}
+	],
+	"levels": [
+		{
+			"level": "Easy",
+			"audio": "src/audios/easy.mp3",
+			"image": "src/images/levels/easy.jpg"
+		},
+		{
+			"level": "Intermediate",
+			"audio": "src/audios/medium.mp3",
+			"image": "src/images/levels/medium.jpg"
+		},
+		{
+			"level": "Hard",
+			"audio": "src/audios/hard.mp3",
+			"image": "src/images/levels/hard.jpg"
+		}
+	],
+	"sound": {
+		"bgm": "src/audios/main_bgm.mp3",
+		"highscores": "src/audios/highscores.mp3",
+		"cheer": "src/audios/cheer.mp3"
+	}
+}

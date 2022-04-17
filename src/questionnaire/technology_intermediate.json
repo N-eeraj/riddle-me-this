@@ -1,0 +1,102 @@
+[
+	{
+		"question": "What technology is used to record cryptocurrency transactions?",
+		"options": [
+			"Mining",
+			"Token",
+			"Digital Wallet",
+			"Blockchain"
+		],
+		"answer": 3
+	},
+	{
+		"question": "What technology is used to make telephone calls over the Internet possible?",
+		"options": [
+			"HTTP",
+			"HTTPS",
+			"TCP/IP",
+			"VoIP"
+		],
+		"answer": 3
+	},
+	{
+		"question": "How many bytes are in a kilobyte?",
+		"options": [
+			"100",
+			"1000",
+			"1024",
+			"2020"
+		],
+		"answer": 2
+	},
+	{
+		"question": "How many pins does a transistor have?",
+		"options": [
+			"One",
+			"Two",
+			"Three",
+			"Four"
+		],
+		"answer": 2
+	},
+	{
+		"question": "What is electric current defined as?",
+		"options": [
+			"Random movements of electrons in a conductor",
+			"Pressure difference between two poles",
+			"The power that causes drift of electrons",
+			"Movement of free electrons prominently in one direction"
+		],
+		"answer": 3
+	},
+	{
+		"question": "Who is the founder of SpaceX?",
+		"options": [
+			"Jeff Bezos",
+			"Elon Musk",
+			"Jack Ma",
+			"Bob Miner"
+		],
+		"answer": 1
+	},
+	{
+		"question": "Which company created the game Minecraft?",
+		"options": [
+			"Sony",
+			"Nintendo",
+			"Mojang Studios",
+			"Tencent"
+		],
+		"answer": 2
+	},
+	{
+		"question": "Who created the first web page?",
+		"options": [
+			"Tim Berners-Lee",
+			"Tim Cook",
+			"Bjarne Stroustrup",
+			"Guido Van Rossum"
+		],
+		"answer": 0
+	},
+	{
+		"question": "Who invented the MRI machine?",
+		"options": [
+			"Thomas Jefferson",
+			"Johannes Gutenberg",
+			"Wilhelm Conrad Röntgen",
+			"Raymond Damadian"
+		],
+		"answer": 3
+	},
+	{
+		"question": "Which is Google's parent company?",
+		"options": [
+			"Alphabet Inc.",
+			"Meta",
+			"Intel Corporation",
+			"Boeing Company"
+		],
+		"answer": 0
+	}
+]

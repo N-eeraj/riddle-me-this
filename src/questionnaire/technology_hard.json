@@ -1,0 +1,102 @@
+[
+	{
+		"question": "Which was the first programming language?",
+		"options": [
+			"FORTRAN",
+			"C",
+			"Java",
+			"Pascal"
+		],
+		"answer": 0
+	},
+	{
+		"question": "What is the field of study that combines domain expertise, programming skills, and knowledge of mathematics and statistics to extract meaningful insights from data called?",
+		"options": [
+			"Data Analytics",
+			"Data Science",
+			"Machine Learning",
+			"Artificial Intelligence"
+		],
+		"answer": 1
+	},
+	{
+		"question": "What are the 3 types of machine learning?",
+		"options": [
+			"Data learning, Self learning & Artificial Intelligence",
+			"Supervised, Unsupervised & Reinforced learning",
+			"Blockchain based, Cloud based & Data driven",
+			"Sentiment analysis, Predictive analysis & Random learning"
+		],
+		"answer": 1
+	},
+	{
+		"question": "Who is largely responsible for breaking the German Enigma codes, created a test that provided a foundation for artificial intelligence?",
+		"options": [
+			"Jeff Bezos",
+			"Charles Babbage",
+			"Alan Turing",
+			"George Boole"
+		],
+		"answer": 2
+	},
+	{
+		"question": "What was the first ARPANET message?",
+		"options": [
+			"cyberspace, the final frontier",
+			"hello world",
+			"mary had a little lamb",
+			"Lo"
+		],
+		"answer": 3
+	},
+	{
+		"question": "Who co-created the UNIX operating system in 1969 with Dennis Ritchie?",
+		"options": [
+			"Ken Thompson",
+			"Steve Wozniak",
+			"Niklaus Wirth",
+			"John Sculley"
+		],
+		"answer": 0
+	},
+	{
+		"question": "Who coined the term \"Artificial Intelligence\"?",
+		"options": [
+			"Charles Babbage",
+			"Alan Turing",
+			"John McCarthy",
+			"George Perkins Marsh"
+		],
+		"answer": 2
+	},
+	{
+		"question": "Which of these is not a game engine?",
+		"options": [
+			"Unity",
+			"Unreal Engine",
+			"Supercell",
+			"Godot"
+		],
+		"answer": 2
+	},
+	{
+		"question": "When was Facebook launched?",
+		"options": [
+			"1998",
+			"2000",
+			"2004",
+			"2008"
+		],
+		"answer": 2
+	},
+	{
+		"question": "What is material is used to produce processors?",
+		"options": [
+			"Gold",
+			"Plastic",
+			"Titanium",
+			"Silicon"
+		],
+		"answer": 3
+	}
+]

@@ -1,0 +1,102 @@
+[
+	{
+		"question": "How much bones in a human body?",
+		"options": [
+			"153 bones",
+			"187 bones",
+			"206 bones",
+			"224 bones"
+		],
+		"answer": 2
+	},
+	{
+		"question": "How much senses do humans have?",
+		"options": [
+			"Four",
+			"Five",
+			"Six",
+			"Seven"
+		],
+		"answer": 1
+	},
+	{
+		"question": "What mineral strengthens bones?",
+		"options": [
+			"Calcium",
+			"Potassium",
+			"Iodine",
+			"Sodium"
+		],
+		"answer": 0
+	},
+	{
+		"question": "What is the powerhouse of the cell called?",
+		"options": [
+			"Mitochondria",
+			"Ribosomes",
+			"Vesicles",
+			"Centrioles"
+		],
+		"answer": 0
+	},
+	{
+		"question": "Where does digestions begin in our body?",
+		"options": [
+			"Stomach",
+			"Intestines",
+			"Food pipe",
+			"Mouth"
+		],
+		"answer": 3
+	},
+	{
+		"question": "Which organ pumps the blood throughout the body?",
+		"options": [
+			"Brain",
+			"Liver",
+			"Heart",
+			"Kidney"
+		],
+		"answer": 2
+	},
+	{
+		"question": "Over 60% of the human body is constituted by ______.",
+		"options": [
+			"Air",
+			"Bones",
+			"Muscle",
+			"Water"
+		],
+		"answer": 3
+	},
+	{
+		"question": "Which blood type is the universal donor?",
+		"options": [
+			"AB-",
+			"AB+",
+			"O+",
+			"O-"
+		],
+		"answer": 3
+	},
+	{
+		"question": "Which set of muscles in the human body never rest?",
+		"options": [
+			"Thigh Muscles",
+			"Heart Muscles",
+			"Biceps",
+			"Feet Muscles"
+		],
+		"answer": 1
+	},
+	{
+		"question": "How many chambers are there in a human heart?",
+		"options": [
+			"Three",
+			"Four",
+			"Five",
+			"Six"
+		],
+		"answer": 1
+	}
+]

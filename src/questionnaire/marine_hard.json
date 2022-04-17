@@ -1,0 +1,102 @@
+[
+	{
+		"question": "Where is the Bermuda Triangle located?",
+		"options": [
+			"Atlantic Ocean",
+			"The Arctic Ocean",
+			"Pacific Ocean",
+			"Indian Ocean"
+		],
+		"answer": 0
+	},
+	{
+		"question": "What is a mass of jellyfish floating together called?",
+		"options": [
+			"Pack",
+			"Flock",
+			"Smack",
+			"School"
+		],
+		"answer": 2
+	},
+	{
+		"question": "What is the emitting a bright blue glow the ocean waters?",
+		"options": [
+			"Bioluminescence",
+			"Northern Lights",
+			"Biolights",
+			"Bio Lights"
+		],
+		"answer": 0
+	},
+	{
+		"question": "What is the normal lifespan of icebergs?",
+		"options": [
+			"Less than a year",
+			"2-3 years",
+			"1-2 years",
+			"More than 3 years"
+		],
+		"answer": 3
+	},
+	{
+		"question": "Which is the largest coral reef in the world?",
+		"options": [
+			"Red Sea Coral Reef",
+			"Andros Coral Reef",
+			"Florida Reef",
+			"Great Barrier Reef"
+		],
+		"answer": 3
+	},
+	{
+		"question": "What is the primary food source of whales?",
+		"options": [
+			"Krill",
+			"Sharks",
+			"Penguins",
+			"Starfish"
+		],
+		"answer": 0
+	},
+	{
+		"question": "\"Carassius auratus\" is the scientific name of which fish?",
+		"options": [
+			"Blue Whale",
+			"Goldfish",
+			"Starfish",
+			"Red Salmon"
+		],
+		"answer": 1
+	},
+	{
+		"question": "Which is the slowest fish?",
+		"options": [
+			"Blue Whale",
+			"Sailfish",
+			"Orca",
+			"Seahorse"
+		],
+		"answer": 3
+	},
+	{
+		"question": "What are underwater volcanos called?",
+		"options": [
+			"Liquid Volcanoes",
+			"Submarine Volcanoes",
+			"Oceanic Mountains",
+			"Sea Peaks"
+		],
+		"answer": 1
+	},
+	{
+		"question": "What is the most common marine plant?",
+		"options": [
+			"Asian Surfgrass",
+			"Eyelash Seaweed",
+			"Red Algae",
+			"Green Algae"
+		],
+		"answer": 3
+	}
+]

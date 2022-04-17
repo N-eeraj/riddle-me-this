@@ -1,0 +1,102 @@
+[
+	{
+		"question": "How many seas are there in the world",
+		"options": [
+			"Three",
+			"Five",
+			"Seven",
+			"Nine"
+		],
+		"answer": 2
+	},
+	{
+		"question": "Which is the largest fish in the world?",
+		"options": [
+			"Orca",
+			"Great White Shark",
+			"Whale Shark",
+			""
+		],
+		"answer": 2
+	},
+	{
+		"question": "How much tentacles do an octopus have?",
+		"options": [
+			"Six",
+			"Eight",
+			"Ten",
+			"Twelve"
+		],
+		"answer": 1
+	},
+	{
+		"question": "What are a group of fishes called?",
+		"options": [
+			"School",
+			"Pack",
+			"Shallow",
+			"Flock"
+		],
+		"answer": 0
+	},
+	{
+		"question": "What does most fishes breath through",
+		"options": [
+			"Skin",
+			"Lungs",
+			"Gills",
+			"Tail"
+		],
+		"answer": 2
+	},
+	{
+		"question": "Which sea animal produce pearls?",
+		"options": [
+			"Crab",
+			"Blue Whale",
+			"Starfish",
+			"Oyster"
+		],
+		"answer": 3
+	},
+	{
+		"question": "Which undersea creatures are known for making electricity?",
+		"options": [
+			"Tiger Shark",
+			"Electric Eel",
+			"Puffer Fish",
+			"Flying Fish"
+		],
+		"answer": 1
+	},
+	{
+		"question": "Is coral a plant or animal?",
+		"options": [
+			"Animal",
+			"Plant",
+			"Neither",
+			"Both"
+		],
+		"answer": 3
+	},
+	{
+		"question": "What is the natural habitat of Clownfish?",
+		"options": [
+			"Kelp Forest",
+			"Coral Reef",
+			"Open Ocean",
+			"Lakes"
+		],
+		"answer": 1
+	},
+	{
+		"question": "Where does the Seahorse lay eggs?",
+		"options": [
+			"Carried by the male",
+			"Carried by the female",
+			"Laid on the coral reef",
+			"Laid on the seabed"
+		],
+		"answer": 0
+	}
+]

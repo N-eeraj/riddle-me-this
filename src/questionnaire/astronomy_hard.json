@@ -1,0 +1,102 @@
+[
+	{
+		"question": "Which planet has the highest gravity?",
+		"options": [
+            "Earth",
+			"Mars",
+			"Jupiter",
+			"Uranus"
+		],
+		"answer": 2
+	},
+	{
+		"question": "What is the point from which nothing can return with respect to a black hole called?",
+		"options": [
+			"No man's land",
+			"Nebula",
+			"The singularity",
+			"Event horizon"
+		],
+		"answer": 3
+	},
+	{
+		"question": "Which planet revolves the slowest?",
+		"options": [
+			"Venus",
+			"Mars",
+			"Jupiter",
+			"Neptune"
+		],
+		"answer": 0
+	},
+	{
+		"question": "How long is a year on Neptune in Earth years?",
+		"options": [
+			"165 Years",
+			"195 Years",
+			"235 Years",
+			"275 Years"
+		],
+		"answer": 0
+	},
+	{
+		"question": "Which of these is not a type of galaxy",
+		"options": [
+			"Spiral",
+			"Peculiar",
+			"Regular",
+			"Irregular"
+		],
+		"answer": 2
+	},
+	{
+		"question": "Which is the largest moon in the solar system?",
+		"options": [
+			"Ganymede",
+			"Miranda",
+			"Deimos",
+			"Phobos"
+		],
+		"answer": 0
+	},
+	{
+		"question": "Which planet has the most acidic rain in the Solar System?",
+		"options": [
+			"Mercury",
+			"Venus",
+			"Earth",
+			"Neptune"
+		],
+		"answer": 1
+	},
+	{
+		"question": "What is an distinct body of interstellar clouds occupying the space between stars called?",
+		"options": [
+			"Nebula",
+			"Nova",
+			"Neutron Star",
+			"Nessus"
+		],
+		"answer": 0
+	},
+	{
+		"question": "What type of stars are the most dense?",
+		"options": [
+			"Black Holes",
+			"Hot Blue Stars",
+			"Neutron Stars",
+			"Red Giant Stars"
+		],
+		"answer": 2
+	},
+	{
+		"question": "What is the theory that states that the universe will stop growing and will begin to shrink. As the universe grows smaller, it will also get hotter. Resulting in all matter in the universe collapses to a singularity called?",
+		"options": [
+			"Big Bang",
+			"Theory of Relativity",
+			"Big Crunch",
+			"The Theory of Everything"
+		],
+		"answer": 2
+	}
+]

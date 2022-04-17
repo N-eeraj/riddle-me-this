@@ -1,0 +1,102 @@
+[
+	{
+		"question": "What color is the tongue of a giraffe?",
+		"options": [
+			"Pink",
+			"Red",
+			"Purple",
+			"Blue"
+		],
+		"answer": 2
+	},
+	{
+		"question": "How far away can a wolf smell its prey?",
+		"options": [
+			"Less than 100 meters",
+			"Upto 500 meters",
+			"Upto 1Km",
+			"More than 2Km"
+		],
+		"answer": 3
+	},
+	{
+		"question": "What do snakes use to smell?",
+		"options": [
+			"Skin",
+			"Eyes",
+			"Tongue",
+			"Tail"
+		],
+		"answer": 2
+	},
+	{
+		"question": "How many layers of skin does a chameleon have?",
+		"options": [
+			"One",
+			"Two",
+			"Three",
+			"Four"
+		],
+		"answer": 3
+	},
+	{
+		"question": "Which is the largest type of frog?",
+		"options": [
+			"Goliath Frog",
+			"Glass Frog",
+			"Tomato Frog",
+			"South American Horned Frog"
+		],
+		"answer": 0
+	},
+	{
+		"question": "How can you tell the age of most trees?",
+		"options": [
+			"Counting the leaves",
+			"Height of the tree",
+			"Depth of the tree root",
+			"Counting the rings of the tree"
+		],
+		"answer": 3
+	},
+	{
+		"question": "How many eyes do caterpillars have?",
+		"options": [
+			"Four",
+			"Eight",
+			"Twelve",
+			"Twenty"
+		],
+		"answer": 2
+	},
+	{
+		"question": "Which is the largest bird?",
+		"options": [
+			"Ostrich",
+			"Vulture",
+			"Eagle",
+			"Albatross"
+		],
+		"answer": 0
+	},
+	{
+		"question": "What color are elephant hawk-moths?",
+		"options": [
+			"Pink",
+			"Purple",
+			"Grey",
+			"Black"
+		],
+		"answer": 0
+	},
+	{
+		"question": "What are deciduous plant",
+		"options": [
+			"Plant that keeps it's leaves always",
+			"Plants that sheds its leaves every fall",
+			"Plants that bear fruits",
+			"Plants that do not bear fruits"
+		],
+		"answer": 1
+	}
+]

@@ -1,0 +1,102 @@
+[
+	{
+		"question": "What is the name of the fastest land animal?",
+		"options": [
+			"Tiger",
+			"Dog",
+			"Puma",
+			"Cheetah"
+		],
+		"answer": 3
+	},
+	{
+		"question": "Which plant is used to make chocolate?",
+		"options": [
+			"Wheat",
+			"Chicory",
+			"Cocoa",
+			"Coffee"
+		],
+		"answer": 2
+	},
+	{
+		"question": "What do plants use collect water?",
+		"options": [
+			"Leaves",
+			"Stem",
+			"Root",
+			"Flower"
+		],
+		"answer": 2
+	},
+	{
+		"question": "What animal is considered as the king of the jungle?",
+		"options": [
+			"Lion",
+			"Tiger",
+			"Elephant",
+			"Giraffe"
+		],
+		"answer": 0
+	},
+	{
+		"question": "What's the name of the largest snake in the world?",
+		"options": [
+			"Python",
+			"Anaconda",
+			"King Cobra",
+			"Pit Viper"
+		],
+		"answer": 1
+	},
+	{
+		"question": "Which is the bird that is able to fly backwards",
+		"options": [
+			"Crow",
+			"Vulture",
+			"Hummingbird",
+			"Eagle"
+		],
+		"answer": 2
+	},
+	{
+		"question": "What reptile is known for the ability to change its body color?",
+		"options": [
+			"Chameleon",
+			"Turtles",
+			"Lizards",
+			"Snakes"
+		],
+		"answer": 0
+	},
+	{
+		"question": "Which animal is the tallest in the world?",
+		"options": [
+			"Horse",
+			"Elephant",
+			"Giraffe",
+			"Kangaroo"
+		],
+		"answer": 2
+	},
+	{
+		"question": "What does a snake shed a few times a year?",
+		"options": [
+			"Tooth",
+			"Skin",
+			"Eye",
+			"Tongue"
+		],
+		"answer": 1
+	},
+	{
+		"question": "What's a newly hatched butterfly called?",
+		"options": [
+			"Caterpillar",
+			"Baby Butterfly",
+			"Moth",
+			"Beetles"
+		],
+		"answer": 0
+	}
+]
