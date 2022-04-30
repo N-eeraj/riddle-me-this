@@ -9,10 +9,12 @@
 :root {
 	--primary: #E7FFE7;
 	--accent: #060;
+	--pure: #FFF;
 }
 .dark-mode {
 	--primary: #111;
 	--accent: #0B0;
+	--pure: #000;
 }
 
 .splash-screen {
@@ -42,6 +44,135 @@
 	visibility: visible !important;
 }
 
+body {
+	background-color: var(--primary);
+}
+
+nav {
+	font-size: min(4vh, 72pt);
+}
+nav h1 {
+	height: 15vh;
+	width: 100vw;
+	color: var(--accent);
+	text-align: center;
+	line-height: 15vh;
+}
+
+nav ul {
+	position: fixed;
+	bottom: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: stretch;
+	width: 100vw;
+	height: 10vh;
+	background-color: var(--accent);
+	color: var(--primary);
+}
+nav li {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 33%;
+	list-style: none;
+}
+nav li:first-child {
+	order: 1;
+}
+nav li:last-child {
+	order: 2;
+}
+nav li span {
+	display: none;
+}
+
+
+main {
+	display: flex;
+	flex-direction: column;
+	row-gap: 5vh;
+	width: 100%;
+	height: 70vh;
+	margin-top: 5vh;
+}
+
+main h2 {
+	width: 100%;
+	text-align: center;
+	color: var(--accent);
+}
+
+main ul {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-wrap: wrap;
+	column-gap: 3vh;
+	height: 50vh;
+}
+
+main ul li.row {
+	width: 80%;
+	height: 10vh;
+	background-color: var(--pure);
+	color: var(--accent);
+	font-size: max(2.4vh, 16pt);
+	border-radius: 10px;
+	list-style: none;
+}
+main ul li label {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+}
+main ul li button {
+	width: 100%;
+	height: 100%;
+	background-color: transparent;
+	border: none;
+	border-radius: 10px;
+	background-color: var(--accent);
+	color: var(--primary);
+	font-size: max(2.4vh, 16pt);
+}
+
+main ul li input{
+	display: none;
+}
+.switch {
+	position: relative;
+	width: 25%;
+	aspect-ratio: 2;
+	background-color: var(--primary);
+	border-radius: 25px;
+	border: 1px solid var(--accent);
+	filter: grayscale(1);
+	transition: 400ms;
+}
+.switch::after {
+	content: "";
+	position: absolute;
+	left: 5%;
+	bottom: 10%;
+	height: 80%;
+	aspect-ratio: 1;
+	background-color: var(--accent);
+	border-radius: 100%;
+	transition: 400ms;
+}
+main ul li input:checked + .switch {
+	filter: grayscale(0);
+}
+main ul li input:checked + .switch::after {
+	transform: translateX(125%);
+}
+
+
+
 
 @media screen and (orientation: landscape) {
 
@@ -50,7 +181,66 @@
 		width: auto;
 	}
 
+	nav {
+		display: flex;
+		justify-content: space-between;
+		height: 10vh;
+		padding: 0 3vw;
+	}
+	nav h1 {
+		text-align: left;
+		font-size: min(4vw, 24pt);
+
+	}
+	nav ul {
+		position: static;
+		align-items: flex-end;
+		column-gap: max(2.5vw, 25px);
+		width: unset;
+		max-width: 50vw;
+		white-space: nowrap;
+		background-color: transparent;
+		color: var(--accent);
+	}
+	nav li {
+		position: relative;
+		display: flex;
+		column-gap: 10px;
+		cursor: pointer;
+		transition: 300ms;
+	}
+	nav li:hover i{
+		opacity: 1;
+	}
+	nav li::after {
+		content: "";
+		position: absolute;
+		bottom: -15px;
+		width: 100%;
+		height: 3px;
+		background-color: var(--accent);
+		transform: scaleX(0);
+		transform-origin: left;
+		transition: 300ms;
+	}
+	nav li:hover::after {
+		transform: scaleX(1);
+		transition: 600ms;
+	}
+	nav li:first-child {
+		order: 0;
+	}
+	nav li i {
+		opacity: 0.7;
+		transition: 600ms;
+	}
+	nav ul li span {
+		display: block;
+		font-size: min(2vw, 16pt);
+	}
+
 }
+
 
 
 @keyframes blink {
