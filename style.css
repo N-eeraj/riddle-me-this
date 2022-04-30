@@ -3,6 +3,7 @@
 	padding: 0;
 	box-sizing: content-box;
 	outline: none;
+	font-family: sans-serif;
 }
 
 :root {
@@ -12,4 +13,54 @@
 .dark-mode {
 	--primary: #111;
 	--accent: #0B0;
+}
+
+.splash-screen {
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100vw;
+	height: 100vh;
+	background-color: #191919;
+	color: #0d8d36;
+}
+.splash-screen h1 {
+	font-size: 3.6rem;
+	text-align: center;
+}
+.splash-screen img {
+	width: 80%;
+}
+.splash-screen span {
+	visibility: hidden;
+	font-size: 24pt;
+	animation: blink 2s infinite ease-in-out;
+}
+.visible {
+	visibility: visible !important;
+}
+
+
+@media screen and (orientation: landscape) {
+
+	.splash-screen img {
+		height: 50%;
+		width: auto;
+	}
+
+}
+
+
+@keyframes blink {
+	0% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
