@@ -1,7 +1,7 @@
 {
 	"categories": [
 		{
-			"category": "wildlife",
+			"category": "Wildlife",
 			"image": "src/images/categories/wildlife.jpg",
 			"quizzes": [
 				"src/questionnaire/wildlife_easy.json",

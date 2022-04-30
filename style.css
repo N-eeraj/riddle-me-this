@@ -1,20 +1,20 @@
 * {
 	margin: 0;
 	padding: 0;
-	box-sizing: content-box;
+	box-sizing: border-box;
 	outline: none;
 	font-family: sans-serif;
 }
 
 :root {
-	--primary: #E7FFE7;
-	--accent: #060;
-	--pure: #FFF;
+	--primary: hsl(120, 75%, 95%);
+	--accent: hsl(120, 100%, 30%);
+	--pure: hsl(120, 0%, 100%);
 }
 .dark-mode {
-	--primary: #111;
-	--accent: #0B0;
-	--pure: #000;
+	--primary: hsl(120, 25%, 5%);
+	--accent: hsl(120, 50%, 50%);
+	--pure: hsl(120, 0%, 0%);
 }
 
 .splash-screen {
@@ -77,6 +77,7 @@ nav li {
 	align-items: center;
 	width: 33%;
 	list-style: none;
+	cursor: pointer;
 }
 nav li:first-child {
 	order: 1;
@@ -106,9 +107,9 @@ main h2 {
 
 main ul {
 	display: flex;
+	flex-direction: column;
 	justify-content: space-evenly;
 	align-items: center;
-	flex-wrap: wrap;
 	column-gap: 3vh;
 	height: 50vh;
 }
@@ -116,6 +117,7 @@ main ul {
 main ul li.row {
 	width: 80%;
 	height: 10vh;
+	padding: 0 10%;
 	background-color: var(--pure);
 	color: var(--accent);
 	font-size: max(2.4vh, 16pt);
@@ -124,7 +126,7 @@ main ul li.row {
 }
 main ul li label {
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 	align-items: center;
 	width: 100%;
 	height: 100%;
@@ -138,6 +140,48 @@ main ul li button {
 	background-color: var(--accent);
 	color: var(--primary);
 	font-size: max(2.4vh, 16pt);
+	cursor: pointer;
+}
+main ul.levels li.row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0;
+	padding-left: 10%;
+	font-weight: bold;
+	cursor: pointer;
+}
+main ul.levels li.row img {
+	height: 100%;
+	aspect-ratio: 1;
+	border-radius: 10px;
+}
+
+main ul.categories {
+	flex-direction: row;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+	row-gap: 3vh;
+}
+main ul.categories li.block {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 30%;
+	max-width: 40%;
+	aspect-ratio: 1.75;
+	background-color: var(--pure);
+	color: var(--accent);
+	border-radius: 10px;
+}
+main ul.categories li.block span:first-child {
+	font-size: 3rem;
+}
+
+main ul.settings li.row:last-child {
+	width: 60%;
+	padding: 0;
 }
 
 main ul li input{
@@ -151,6 +195,7 @@ main ul li input{
 	border-radius: 25px;
 	border: 1px solid var(--accent);
 	filter: grayscale(1);
+	cursor: pointer;
 	transition: 400ms;
 }
 .switch::after {
@@ -170,8 +215,6 @@ main ul li input:checked + .switch {
 main ul li input:checked + .switch::after {
 	transform: translateX(125%);
 }
-
-
 
 
 @media screen and (orientation: landscape) {
@@ -206,7 +249,6 @@ main ul li input:checked + .switch::after {
 		position: relative;
 		display: flex;
 		column-gap: 10px;
-		cursor: pointer;
 		transition: 300ms;
 	}
 	nav li:hover i{
@@ -239,6 +281,28 @@ main ul li input:checked + .switch::after {
 		font-size: min(2vw, 16pt);
 	}
 
+	main {
+		height: 80vh;
+		margin-top: 10vh;
+	}
+	main ul {
+		height: 65vh;
+	}
+	main ul li.row {
+		width: 50%;
+		height: 12vh;
+	}
+	main ul.settings li.row:last-child {
+		width: 50%;
+		max-width: 250px;
+	}
+	main ul.categories li.block {
+		width: 24%;
+		height: auto;
+	}
+	.switch {
+		width: 15%;
+	}
 }
 
 

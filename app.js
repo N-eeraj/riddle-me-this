@@ -26,6 +26,7 @@ const app = Vue.createApp({
 								darkmode: false,
 								sound: false
 							}
+			this.setScores()
 			this.currentAudio = new Audio(this.audios.bgm)
 			setTimeout(() => this.loaded = true, 1000)
 		})
@@ -44,6 +45,35 @@ const app = Vue.createApp({
 					this.currentAudio.play()
 			}
 		},
+		playAudio(audio) {
+			this.currentAudio.pause()
+			this.currentAudio = new Audio(audio)
+			this.currentAudio.play()
+		},
+		changeTab(tabNum) {
+			if (tabNum !== this.currentTab && this.storage.sound) {
+				if (tabNum === 1) {
+					this.playAudio(this.audios.highscores)
+					this.currentAudio.volume = 0.3
+				}
+				else if (this.currentTab + tabNum !== 2)
+					this.playAudio(this.audios.bgm)
+			}
+			this.currentTab = tabNum
+		},
+		getCategory() {
+			let categoryResult = []
+			this.categories.forEach(category => {
+				categoryResult.push(category.category)
+			})
+			return categoryResult
+		},
+		setScores() {
+			this.levels.forEach(level => {
+				this.storage.scores[level.level] = {}
+				this.categories.forEach(category => this.storage.scores[level.level][category.category] = 0)
+			})
+		},
 		updateSettings(action) {
 			switch (action) {
 				case "soundToggle":
@@ -53,7 +83,7 @@ const app = Vue.createApp({
 					this.toggleDarkMode()
 					break
 				case "reset":
-					this.storage.scores = {}
+					this.setScores()
 					break
 			}
 			this.updateLocalStorage()
@@ -79,9 +109,9 @@ const app = Vue.createApp({
 	template: `
 		<splash-screen v-if="splashScreen" :loading="loaded" @click="closeSplashScreen" />
 		<template v-if="!splashScreen">
-			<main-nav @selectTab="tabNum => this.currentTab = tabNum" />
-			<play v-if="currentTab===0" />
-			<highscores v-else-if="currentTab===1" />
+			<main-nav @selectTab="num => changeTab(num)" />
+			<play v-if="currentTab===0" :categories="categories" :levels="levels" />
+			<highscores v-else-if="currentTab===1" :levels="levels" :categories="getCategory()" :scores="storage.scores" />
 			<settings v-else @changeSettings="updateSettings" :options="storage" />
 		</template>
 	`
@@ -139,10 +169,51 @@ app.component("play", {
 
 
 app.component("highscores", {
+	props: ["categories", "levels", "scores"],
+	data() {
+		return {
+			levelSelected : false,
+			categoriesScores: null
+		}
+	},
+	methods: {
+		selectLevel(level) {
+			this.categoriesScores = this.scores[level]
+			this.levelSelected = true
+		}
+	},
 	template: `
 		<main>
 			<h2>High Scores</h2>
+			<levels v-if="!levelSelected" :levels="levels" @levelSelected="lvl => selectLevel(lvl)" />
+			<category-scores v-else :categories="categories" :categoriesScores="categoriesScores" />
 		</main>
+	`
+})
+
+
+app.component("levels", {
+	props: ["levels"],
+	template: `
+		<ul class="levels">
+			<li v-for="level in levels" class="row" @click="() => this.$emit('levelSelected', level.level)">
+				{{level.level}}
+				<img :src="level.image" :alt="level.level">
+			</li>
+		</ul>
+	`
+})
+
+
+app.component("category-scores", {
+	props: ["categories", "categoriesScores"],
+	template: `
+		<ul class="categories">
+			<li v-for="category in categories" class="block">
+				<span>{{categoriesScores[category]}}</span>
+				<span>{{category}}</span>
+			</li>
+		</ul>
 	`
 })
 
