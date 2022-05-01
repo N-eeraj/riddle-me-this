@@ -30,7 +30,7 @@
 		"answer": 3
 	},
 	{
-		"question": "How many stars are there in constellation Orion's belt",
+		"question": "How many stars are there in constellation Orion's belt?",
 		"options": [
 			"Two",
 			"Three",
@@ -70,7 +70,7 @@
 		"answer": 1
 	},
 	{
-		"question": "When was pluto declared as a dwarf planet",
+		"question": "When was pluto declared as a dwarf planet?",
 		"options": [
 			"1992",
 			"2000",

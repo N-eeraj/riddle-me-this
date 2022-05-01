@@ -3,56 +3,56 @@
 		{
 			"category": "Wildlife",
 			"image": "src/images/categories/wildlife.jpg",
-			"quizzes": [
-				"src/questionnaire/wildlife_easy.json",
-				"src/questionnaire/wildlife_intermediate.json",
-				"src/questionnaire/wildlife_hard.json"
-			]
+			"quizzes": {
+				"Easy": "src/questionnaire/wildlife_easy.json",
+				"Intermediate": "src/questionnaire/wildlife_intermediate.json",
+				"Hard": "src/questionnaire/wildlife_hard.json"
+			}
 		},
 		{
 			"category": "Marine",
 			"image": "src/images/categories/marine.jpg",
-			"quizzes": [
-				"src/questionnaire/src/questionnaire/marine_easy.json",
-				"src/questionnaire/src/questionnaire/marine_intermediate.json",
-				"src/questionnaire/src/questionnaire/marine_hard.json"
-			]
+			"quizzes": {
+				"Easy": "src/questionnaire/marine_easy.json",
+				"Intermediate": "src/questionnaire/marine_intermediate.json",
+				"Hard": "src/questionnaire/marine_hard.json"
+			}
 		},
 		{
 			"category": "Astronomy",
 			"image": "src/images/categories/astronomy.jpg",
-			"quizzes": [
-				"src/questionnaire/astronomy_easy.json",
-				"src/questionnaire/astronomy_intermediate.json",
-				"src/questionnaire/astronomy_hard.json"
-			]
+			"quizzes": {
+				"Easy": "src/questionnaire/astronomy_easy.json",
+				"Intermediate": "src/questionnaire/astronomy_intermediate.json",
+				"Hard": "src/questionnaire/astronomy_hard.json"
+			}
 		},
 		{
 			"category": "Biology",
 			"image": "src/images/categories/biology.jpg",
-			"quizzes": [
-				"src/questionnaire/biology_easy.json",
-				"src/questionnaire/biology_intermediate.json",
-				"src/questionnaire/biology_hard.json"
-			]
+			"quizzes": {
+				"Easy": "src/questionnaire/biology_easy.json",
+				"Intermediate": "src/questionnaire/biology_intermediate.json",
+				"Hard": "src/questionnaire/biology_hard.json"
+			}
 		},
 		{
 			"category": "Technology",
 			"image": "src/images/categories/technology.jpg",
-			"quizzes": [
-				"src/questionnaire/technology_easy.json",
-				"src/questionnaire/technology_intermediate.json",
-				"src/questionnaire/technology_hard.json"
-			]
+			"quizzes": {
+				"Easy": "src/questionnaire/technology_easy.json",
+				"Intermediate": "src/questionnaire/technology_intermediate.json",
+				"Hard": "src/questionnaire/technology_hard.json"
+			}
 		},
 		{
 			"category": "History",
 			"image": "src/images/categories/history.jpg",
-			"quizzes": [
-				"src/questionnaire/history_easy.json",
-				"src/questionnaire/history_intermediate.json",
-				"src/questionnaire/history_hard.json"
-			]
+			"quizzes": {
+				"Easy": "src/questionnaire/history_easy.json",
+				"Intermediate": "src/questionnaire/history_intermediate.json",
+				"Hard": "src/questionnaire/history_hard.json"
+			}
 		}
 	],
 	"levels": [

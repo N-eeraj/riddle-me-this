@@ -1,6 +1,6 @@
 [
 	{
-		"question": "How many seas are there in the world",
+		"question": "How many seas are there in the world?",
 		"options": [
 			"Three",
 			"Five",
@@ -15,7 +15,7 @@
 			"Orca",
 			"Great White Shark",
 			"Whale Shark",
-			""
+			"Titanaboa"
 		],
 		"answer": 2
 	},
@@ -40,7 +40,7 @@
 		"answer": 0
 	},
 	{
-		"question": "What does most fishes breath through",
+		"question": "What does most fishes breath through?",
 		"options": [
 			"Skin",
 			"Lungs",
