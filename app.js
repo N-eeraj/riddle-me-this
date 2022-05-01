@@ -8,9 +8,10 @@ const app = Vue.createApp({
 			audios: null,
 			currentAudio: null,
 			currentTab: null,
+			currentQuiz: null,
 			quizData: null,
 			highScores: null,
-			storage: null,
+			storage: null
 		}
 	},
 	mounted() {
@@ -82,6 +83,10 @@ const app = Vue.createApp({
 			this.changeTab(0)
 		},
 		beginQuiz(category, level) {
+			this.currentQuiz = {
+				category: category,
+				level: level
+			}
 			let selectedCategory = this.categories.filter(categoryItem => categoryItem.category === category)[0]
 			let selectedlevel = this.levels.filter(levelItem => levelItem.level === level)[0]
 			let data = {
@@ -103,6 +108,13 @@ const app = Vue.createApp({
 				this.screen = "quiz"
 				this.changeTab(3)
 			})
+		},
+		quizResult(score) {
+			let quiz = this.currentQuiz
+			let highScore = this.storage.scores[quiz.level][quiz.category]
+			if (highScore < score)
+				return console.log("New highscore")
+			console.log(score)
 		},
 		updateSettings(action) {
 			switch (action) {
@@ -144,7 +156,7 @@ const app = Vue.createApp({
 			<highscores v-else-if="currentTab===1" :levels="levels" :categories="getCategory()" :scores="storage.scores" />
 			<settings v-else @changeSettings="updateSettings" :options="storage" />
 		</template>
-		<quiz v-else :quizData="quizData" @back="mainMenu" />
+		<quiz v-else :quizData="quizData" @back="mainMenu" @returnScore="score => quizResult(score)" />
 	`
 })
 
@@ -227,7 +239,8 @@ app.component("quiz", {
 		return {
 			questions: this.quizData.data,
 			current: 0,
-			time: 30000
+			time: 10000,
+			score: 0
 		}
 	},
 	created() {
@@ -236,21 +249,20 @@ app.component("quiz", {
 	methods: {
 		startCountDown() {
 			setInterval(() => {
-				--this.time
-				if (this.time === 0)
+				if (--this.time === 0)
 					return this.nextQuestion()
 			}, 1)
 		},
 		selectOption(index) {
 			if (this.questions[this.current].answer === index)
-				console.log("Winner Winner, Chicken Dinner")
+				this.score += this.time
 			this.nextQuestion()
 		},
 		nextQuestion() {
 			if (this.current === 9)
-				return console.log("The End")
+				return this.$emit("returnScore", this.score)
 			++this.current
-			this.time = 30000
+			this.time = 10000
 		}
 	},
 	template: `
@@ -260,7 +272,7 @@ app.component("quiz", {
 				<section class="question">
 					{{questions[current].question}}
 				</section>
-				<progress max="30000" :value="time"></progress>
+				<progress max="10000" :value="time"></progress>
 				<ol>
 					<li v-for="(option, index) in questions[current].options" @click="selectOption(index)">{{option}}</li>
 				</ol>

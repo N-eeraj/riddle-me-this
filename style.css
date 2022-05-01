@@ -31,6 +31,7 @@
 	justify-content: center;
 	width: 100vw;
 	height: 100vh;
+	padding: 5%;
 	background-color: #191919;
 	color: #0d8d36;
 }
@@ -273,16 +274,17 @@ section.question {
 	width: 90vw;
 	aspect-ratio: 2.25;
 	max-height: 24vh;
+	padding: 10%;
 	font-size: 2.8vh;
 }
 section.question, .quiz-container ol li {
-	padding: 10%;
 	background-image: linear-gradient(45deg, var(--overlay), var(--glass));
 	color: var(--negative);
 	backdrop-filter: blur(10px);
 	font-weight: bold;
 	border: 1px solid var(--negative);
 	border-radius: 10px;
+	overflow-y: scroll;
 }
 .quiz-container progress {
 	width: 100vw;
@@ -309,6 +311,8 @@ section.question, .quiz-container ol li {
 	align-items: center;
 	width: 45%;
 	aspect-ratio: 1.5;
+	padding: 3% 5%;
+	word-break: normal;
 	font-size: 2vh;
 	list-style: none;
 	cursor: pointer;
