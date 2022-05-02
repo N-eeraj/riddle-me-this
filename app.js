@@ -9,6 +9,7 @@ const app = Vue.createApp({
 			currentAudio: null,
 			currentTab: null,
 			currentQuiz: null,
+			currentScore: null,
 			quizData: null,
 			highScores: null,
 			storage: null
@@ -22,13 +23,14 @@ const app = Vue.createApp({
 			this.levels = data.levels
 			this.audios = data.sound
 			this.storage = JSON.parse(localStorage.getItem("riddleMeThis"))
-			if (this.storage === null)
+			if (this.storage === null) {
 				this.storage = {
 								scores: {},
 								darkmode: false,
 								sound: true
 							}
-			this.setScores()
+				this.setScores()
+			}
 			this.currentAudio = new Audio(this.audios.bgm)
 			setTimeout(() => this.loaded = true, 1000)
 		})
@@ -47,6 +49,8 @@ const app = Vue.createApp({
 			}
 		},
 		playAudio(audio, volume=1) {
+			if (!this.storage.sound)
+				return
 			this.currentAudio.pause()
 			this.currentAudio.volume = volume
 			this.currentAudio = new Audio(audio)
@@ -54,7 +58,7 @@ const app = Vue.createApp({
 			this.currentAudio.play()
 		},
 		changeTab(tabNum) {
-			if (tabNum !== this.currentTab && this.storage.sound) {
+			if (tabNum !== this.currentTab) {
 				if (tabNum === 1) {
 					this.playAudio(this.audios.highscores, 0.3)
 				}
@@ -112,9 +116,21 @@ const app = Vue.createApp({
 		quizResult(score) {
 			let quiz = this.currentQuiz
 			let highScore = this.storage.scores[quiz.level][quiz.category]
-			if (highScore < score)
-				return console.log("New highscore")
-			console.log(score)
+			let isHighScore = false
+			if (highScore < score) {
+				this.playAudio(this.audios.cheer)
+				this.storage.scores[quiz.level][quiz.category] = score
+				isHighScore = true
+				this.updateLocalStorage()
+			}
+			this.showScore(score, isHighScore)
+		},
+		showScore(score, boolHighScore) {
+			this.currentScore = {
+				score: score,
+				isHighScore: boolHighScore
+			}
+			this.screen = "score"
 		},
 		updateSettings(action) {
 			switch (action) {
@@ -156,7 +172,15 @@ const app = Vue.createApp({
 			<highscores v-else-if="currentTab===1" :levels="levels" :categories="getCategory()" :scores="storage.scores" />
 			<settings v-else @changeSettings="updateSettings" :options="storage" />
 		</template>
-		<quiz v-else :quizData="quizData" @back="mainMenu" @returnScore="score => quizResult(score)" />
+		<quiz v-else-if="screen==='quiz'" :quizData="quizData" @back="mainMenu" @returnScore="score => quizResult(score)" />
+		<div v-else @click="mainMenu" class="score">
+			<h3>
+				<template v-if="currentScore.isHighScore">New High Score</template>
+				<template v-else>You Scored</template>
+			</h3>
+			<h2>{{currentScore.score}}</h2>
+			<span class="visible">Tap on Screen</span>
+		</div>
 	`
 })
 
@@ -239,6 +263,7 @@ app.component("quiz", {
 		return {
 			questions: this.quizData.data,
 			current: 0,
+			timer: null,
 			time: 10000,
 			score: 0
 		}
@@ -246,9 +271,12 @@ app.component("quiz", {
 	created() {
 		this.startCountDown()
 	},
+	beforeUnmount() {
+		clearInterval(this.timer)
+	},
 	methods: {
 		startCountDown() {
-			setInterval(() => {
+			this.timer = setInterval(() => {
 				if (--this.time === 0)
 					return this.nextQuestion()
 			}, 1)
@@ -259,9 +287,8 @@ app.component("quiz", {
 			this.nextQuestion()
 		},
 		nextQuestion() {
-			if (this.current === 9)
+			if (this.current++ === 9)
 				return this.$emit("returnScore", this.score)
-			++this.current
 			this.time = 10000
 		}
 	},

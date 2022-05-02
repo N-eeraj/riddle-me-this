@@ -24,7 +24,7 @@
 		"options": [
 			"The atmosphere of the planet",
 			"The outermost layer of the planet",
-			"A region between the inner & outer most layers",
+			"Region between inner & outer most layers",
 			"The innermost layer of the planet"
 		],
 		"answer": 3
@@ -60,7 +60,7 @@
 		"answer": 0
 	},
 	{
-		"question": "What is the event when one heavenly body such as a moon or planet moves into the shadow of another heavenly body called?",
+		"question": "What is the event when one heavenly body moves into the shadow of another called?",
 		"options": [
 			"Quantum Entanglement",
 			"Eclipse",
